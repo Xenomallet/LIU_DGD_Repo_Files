@@ -1,0 +1,84 @@
+{
+    "version": 1,
+    "name": "scoreControl",
+    "maps": [
+        {
+            "name": "scoreControlButtons",
+            "id": "4775adb4-3ffd-4606-ba7d-ac3774de49ef",
+            "actions": [
+                {
+                    "name": "Add",
+                    "type": "PassThrough",
+                    "id": "4233edb2-0c09-427e-9606-8709c5e4d4d3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Save",
+                    "type": "PassThrough",
+                    "id": "8c2fdbb2-b96e-425d-9451-b321d7be6ccc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Clear",
+                    "type": "PassThrough",
+                    "id": "8326c317-1426-4437-962f-c863e26259ca",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cca12326-cb6f-45ab-8fa3-67895b2d6bfc",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Add",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5e60db4-e890-484c-8118-f5bb1cd6f2ff",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78b97125-62b1-4330-a95d-e3d56f76c80c",
+                    "path": "<Keyboard>/delete",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Clear",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": []
+        }
+    ]
+}
